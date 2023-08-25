@@ -8,7 +8,7 @@ published: false
 labels:
   - Lisp
   - GitHub
-summary: "Player keeps rolling a pair of dice until a 1 is rolled or a player holds."
+summary: "Creating Two-Dice Pig Game using Java for my ICS 111 class."
 ---
 This online iteration of Pig (the dice game) was for my ICS 111 class, which was an introductory class to coding, specifically in Java. This project was to recreate Pig (the dice game) inside of Java using Eclipse as an IDE with the following ruleset:
 A player repeatedly rolls a pair of dice until a 1 is rolled or the player decides to "hold".
@@ -19,4 +19,8 @@ A player repeatedly rolls a pair of dice until a 1 is rolled or the player decid
 - If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 The first player with 100 or more points wins the game!
 
-My role in this project was to write a program that complies with all the rules and incorporates loops, branching, and subroutines as that was the topic of focus for this project.
+My role in this project was to write a program that complies with all the rules. I was also given specific requirements which includes:
+- o
+This project was written entirely by me with the help of TAs and online resources.
+
+What I learned from this experience was how to take a problem, figure out the algorithm for that problem, and create code that implements the algorithm. This also taught me that you can create fun games even without a fancy user interface. As I went through the process of testing the game, my friend volunteered to play the game with me and we had a lot of fun despite the game only being in the console log.
