@@ -9,6 +9,10 @@ labels:
   - Javascript
   - Learning
 ---
+<img width="200px" 
+     class="rounded float-start pe-4" 
+     src="../img/lanikaibeach.jpg"
+     alt="Topview of Lanikai Beach" >
 
 ## Déjà vu
 As I walked on the warm, soft sand and dipped my toes in the water, it was not too cold or too hot but it felt rather comforting. I had experienced this before in another timeframe, it was another moment of deja vu. With only experience using Java and C/C++ - Javascript was nothing too short from home. At first, the thought of learning another programming language was rather nerve-racking but as I progressed through the tutorial, I found myself in a rather calm state, feeling that I found myself back in a familiar place.
