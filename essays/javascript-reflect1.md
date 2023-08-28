@@ -10,7 +10,8 @@ labels:
   - Learning
 ---
 <img width="200px" 
-     class="rounded float-left" 
+     class="rounded float-start"
+     style="border:5px solid white"
      src="../img/lanikaibeach.jpg"
      alt="Topview of Lanikai Beach" >
 
