@@ -11,7 +11,7 @@ labels:
 ---
 <img width="200px" 
      class="rounded float-start"
-     style="border:5px solid white"
+     style="border:10px solid white"
      src="../img/lanikaibeach.jpg"
      alt="Topview of Lanikai Beach" >
 
