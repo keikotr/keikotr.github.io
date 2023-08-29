@@ -6,10 +6,13 @@ title: "Two-Dice Pig Game"
 date: 2021-10-22
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - Java
+  - Game
 summary: "Creating Two-Dice Pig Game using Java for my ICS 111 class."
 ---
+
+<img class="img-fluid" src="../img/dicesheader.jpg">
+
 This online iteration of Pig (the dice game) was for my ICS 111 class, which was an introductory class to coding, specifically in Java. This project was to recreate Pig (the dice game) inside of Java using Eclipse as an IDE with the following ruleset:
 A player repeatedly rolls a pair of dice until a 1 is rolled or the player decides to "hold".
 - If two 1s are rolled, the player's entire score is lost, and the turn ends.
