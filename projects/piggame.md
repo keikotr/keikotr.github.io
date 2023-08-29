@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/twodices.jpg
 title: "Two-Dice Pig Game"
 date: 2021-10-22
 published: false
