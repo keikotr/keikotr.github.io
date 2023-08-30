@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/war-project-icon.jpg
 title: "Simple game of War"
 date: 2022-03-04
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "A simple card game of War for my ICS 211."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/war-header.jpg">
 
 This project was about using abstract data structures to simulate a simple card game of War.
 
