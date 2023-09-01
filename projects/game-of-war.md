@@ -8,7 +8,7 @@ published: true
 labels:
   - Java
   - Game
-summary: "A simple card game of War for my ICS 211."
+summary: "A simple card game of War for my ICS 211 class."
 ---
 
 <img class="img-fluid" src="../img/war-header.jpg">
