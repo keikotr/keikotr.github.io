@@ -7,6 +7,7 @@ date: 2022-10-29
 published: true
 labels:
   - C
+  - Database
 summary: "Creating a simple customer database for my ICS 212 class."
 ---
 
