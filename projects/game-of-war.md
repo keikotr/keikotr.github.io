@@ -18,7 +18,7 @@ The main purpose of this project was to use abstract data structures to simulate
 The goal of War is to be the first player to win all 52 cards. A deck of cards is divided evenly with each player receiving 26 cards, dealt one at a time face down. Each player will turn up a card at the same time and the player with the higher card value takes both cards face down on the bottom of their stack. If the cards are the same rank, war is initiated. Each player will place three cards down and one card up. The player with the higher faced-up card wins the war, takes all the cards, and places them on the bottom of their pile.
 
 My role was to create a program that simulates a card game of War given these files:
-- <a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/IStack211.java">IStack211<E></a>: An interface that includes methods for implementing our own stack data structure.
+- <a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/IStack211.java">IStack211</a>: An interface that includes methods for implementing our own stack data structure.
 - <a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/IGameOfWar.java">IGameOfWar</a>: An interface that includes methods for starting the game, rounds, and players' decks.
 - <a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/Rank.java">Rank.java</a>: An enumeration of the ranks of cards from TWO through ACE.
 - <a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/Suit.java">Suit.java</a>: An enumeration of the suits of cards (CLUBS, DIAMONDS, HEARTS, and SPADES).
