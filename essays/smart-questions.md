@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Is it Smart to Ask?"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2023-09-07
+published: true
 labels:
   - Questions
   - Answers
@@ -13,47 +13,107 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## Are you asking questions? Or are you asking nothing?
 
 I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
 
+During all my years of schooling, there was one consistent phrase that all my teachers would say at the beginning of classes, "Please hold your questions until after the lesson because I may answer your question with the lesson!" More often than not, a student would ask a question in the middle of the lesson and the teacher would respond with, "Please wait a moment, I am about to answer that with the lesson." or "Please do not ask those kinds of questions, I have no appropriate answer to it." So was the student asking a question in a smart way? Or was the student asking questions in a not-so-smart way? Half of us may say that the student had a smart question but asked at the wrong time and topic, while the other half of us may say that the student was asking obscure questions that had zero relevance to the topic! Let me take you into some real examples found on Stack Overflow.
+
 ## What’s a smart question?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+What is Stack Overflow you may ask? Stack Overflow is an online forum for programmers to ask questions about anything tech related! Its a great resource for those who are struggling to resolve a bug in their program or wants to be introduced to other peoples perspectives on different methods of doing something. I have found both a good and bad question found on Stack Overflow to highlight the ups and downs of both questions.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+In the following is an example of a good question that follows asking questions in a smart way:
+https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array
 
 ```
-Q: python date of the previous month
+Q: Why is processing a sorted array faster than processing an unsorted array?
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+In this C++ code, sorting the data (before the timed region) makes the primary loop ~6x faster:
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+#include <algorithm>
+#include <ctime>
+#include <iostream>
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+int main()
+{
+    // Generate data
+    const unsigned arraySize = 32768;
+    int data[arraySize];
 
-I have solved this trouble in bash with:
+    for (unsigned c = 0; c < arraySize; ++c)
+        data[c] = std::rand() % 256;
 
-echo $(date -d"3 month ago" "+%G%m%d")
+    // !!! With this, the next loop runs faster.
+    std::sort(data, data + arraySize);
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+    // Test
+    clock_t start = clock();
+    long long sum = 0;
+    for (unsigned i = 0; i < 100000; ++i)
+    {
+        for (unsigned c = 0; c < arraySize; ++c)
+        {   // Primary loop.
+            if (data[c] >= 128)
+                sum += data[c];
+        }
+    }
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+    double elapsedTime = static_cast<double>(clock()-start) / CLOCKS_PER_SEC;
 
-Thanks for your help!
+    std::cout << elapsedTime << '\n';
+    std::cout << "sum = " << sum << '\n';
+}
+
+- Without std::sort(data, data + arraySize);, the code runs in 11.54 seconds.
+- With the sorted data, the code runs in 1.93 seconds.
+(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)
+
+Initially, I thought this might be just a language or compiler anomaly, so I tried Java:
+import java.util.Random;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        // Generate data
+        int arraySize = 32768;
+        int data[] = new int[arraySize];
+
+        Random rnd = new Random(0);
+        for (int c = 0; c < arraySize; ++c)
+            data[c] = rnd.nextInt() % 256;
+
+        // !!! With this, the next loop runs faster
+        Arrays.sort(data);
+
+        // Test
+        long start = System.nanoTime();
+        long sum = 0;
+        for (int i = 0; i < 100000; ++i)
+        {
+            for (int c = 0; c < arraySize; ++c)
+            {   // Primary loop.
+                if (data[c] >= 128)
+                    sum += data[c];
+            }
+        }
+
+        System.out.println((System.nanoTime() - start) / 1000000000.0);
+        System.out.println("sum = " + sum);
+    }
+}
+
+With a similar but less extreme result.
+
+My first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.
+
+What is going on?
+Why is processing a sorted array faster than processing an unsorted array?
+The code is summing up some independent terms, so the order should not matter.
+
 ```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+The reason why this question is a smart question is because amount of details the original poster included. The original poster included their source code, specifying what language they used, and then explained their testing process, including the results they got. The amount of details that were included in the question allows people reading to replicate it at home as if it were an experiment done by a scientist. People looking to respond can also understand specifically what kind of answer the original poster is looking for because of how clear and concise the poster made it. While this question failed to include what operating system they were using, they had included what language they were coding in so people who are looking to replicate it for themselves can have the blueprint of what the poster exactly did which in turn, we can overlook the failure to include the operating system used.
 
 ```
 A: datetime and the datetime.timedelta classes are your friend.
