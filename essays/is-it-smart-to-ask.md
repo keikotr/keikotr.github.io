@@ -17,7 +17,7 @@ labels:
 
 During all my years of schooling, there was one consistent phrase that all my teachers would say at the beginning of classes, "Please hold your questions until after the lesson because I may answer your question with the lesson!" More often than not, a student would ask a question in the middle of the lesson and the teacher would respond with, "Please wait a moment, I am about to answer that with the lesson." or "Please do not ask those kinds of questions, I have no appropriate answer to it." So was the student asking a question in a smart way? Or was the student asking questions in a not-so-smart way? Half of us may say that the student had a smart question but asked at the wrong time and topic, while the other half of us may say that the student was asking obscure questions that had zero relevance to the topic! Let me take you to some real examples found on Stack Overflow.
 
-## What’s a smart question?
+## What is a smart question?
 
 What is Stack Overflow you may ask? Stack Overflow is an online forum for programmers to ask questions about anything tech-related! It is a great resource for those who are struggling to resolve a bug in their program or want to be introduced to other people's perspectives on different methods of doing something. I have found both good and bad questions on Stack Overflow to highlight the ups and downs of both questions.
 
