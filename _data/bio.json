@@ -35,6 +35,11 @@
       "startDate": "2021-08-23",
       "endDate": "Present",
       "courses": [
+        "Introduction to Computer Science I & II",
+        "Program Structures",
+        "Discrete Mathematics for Computer Science I & II",
+        "Algorithms",
+        "Software Engineering I"
       ]
     }
   ],
@@ -42,10 +47,10 @@
     {
       "company": "Tommy Bahama",
       "position": "Sales Associate",
-      "website": "",
+      "website": "https://www.tommybahama.com/",
       "startDate": "2022-07-01",
       "endDate": "Present",
-      "summary": "Selling Tommy Bahama products to consumers.",
+      "summary": "Selling Tommy Bahama products to guests.",
       "highlights": [
         "Creating interpersonal relationships with guests."
       ]
