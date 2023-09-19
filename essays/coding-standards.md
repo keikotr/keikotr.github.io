@@ -11,9 +11,10 @@ labels:
 ---
 <img width="300px" class="float-end ps-4" src="../img/lanikaibeach.jpg" alt="Topview of Lanikai Beach">
 
-## Troublesome Road
+## Always by my Side
 
 When people first start to learn how to code, the first topics touch on are different functions, loops, and variables. Everything is rainbows and unicorns until coding standards are introduced- where comments outnumber the lines of codes in your program, the number of spaces matters at the beginning and between of each line, and whenever you should use the TAB character or spaces. Getting down to the nitty gritty of coding can be troublesome and annoying at first, but as the journey to becoming a coder becomes more clear and apparent, coding standards has been by my side since day one.
 
 ## 
 
+Since starting my coding journey, there was one thing that was consistently the same throughout all my computer courses, and that was maintaining good coding standards. Regardless if it was 
