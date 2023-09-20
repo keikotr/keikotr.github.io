@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/war-project-icon.jpg
+image: img/game-of-war/war-project-icon.jpg
 title: "Simple game of War"
 date: 2022-03-04
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "A simple card game of War for my ICS 211 class."
 ---
 
-<img class="img-fluid" src="../img/war-header.jpg">
+<img class="img-fluid" src="../img/game-of-war/war-header.jpg">
 
 The main purpose of this project was to use abstract data structures to simulate a simple card game of <a href="https://bicyclecards.com/how-to-play/war/">War</a>.
 

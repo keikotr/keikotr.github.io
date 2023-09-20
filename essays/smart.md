@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smartquestion.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/smartquestion.jpg">
 
 ## Are you asking questions? Or are you asking nothing?
 
