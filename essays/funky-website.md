@@ -32,10 +32,10 @@ Below are two images:
 
 <div class="row" style="display: table">
     <div class="column">
-        <img src="../img/funky-website/tommy-real.png" style="width: 500px">
+        <img src="../img/funky-website/tommy-real.png" style="width: 800px">
     </div>
     <div class="column">
-        <img src="../img/funky-website/tommy-fake.png" style="width: 500px">
+        <img src="../img/funky-website/tommy-fake.png" style="width: 800px">
     </div>
 </div>
 
