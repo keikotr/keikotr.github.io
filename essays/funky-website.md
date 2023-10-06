@@ -4,8 +4,11 @@ type: essay
 title: "Funky Website Building"
 # All dates must be YYYY-MM-DD format!
 date: 2023-10-05
-published: false
+published: true
 labels:
+  - UI Frameworks
+  - Bootstrap 5
+  - HTML/CSS
   - Reflection
 ---
 ## Funky Fresh
