@@ -11,7 +11,7 @@ labels:
 summary: "Creating a simple customer database for my ICS 212 class."
 ---
 
-<img class="img-fluid" src="../img/customer-database/database-header.jpg">
+<img class="img-fluid" src="../img/customer-database/database-header.jpg" alt="Laptop with a plant next to it.">
 
 This project had us create a simple customer database for a bank that allows the banker to manage customer's bank records. The banker's tasks include creating new records, viewing an existing one, and deleting records. Records include the customer's account number, name, and address. There were two parts that we had to complete: The user interface and the database. The user interface had to be easy to work with since the banker is interacting with it and the database end had to include the following functions:
 

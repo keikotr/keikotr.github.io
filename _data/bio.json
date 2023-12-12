@@ -15,12 +15,13 @@
   },
   "interests": [
     { "name": "Game Development" },
-    { "name": "Software Development" }
+    { "name": "Software Development" },
+    { "name": "Web Application Development" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Meteor", "React", "MongoDB" ]
     },
     {
       "name": "Toolsets/OS",
@@ -35,11 +36,17 @@
       "startDate": "2021-08-23",
       "endDate": "Present",
       "courses": [
+        "Calculus I & II",
+        "Linear Algebra",
+        "Elementary Korean",
+        "Intermediate Korean",
         "Introduction to Computer Science I & II",
         "Program Structures",
         "Discrete Mathematics for Computer Science I & II",
         "Algorithms",
-        "Software Engineering I"
+        "Software Engineering I",
+        "Database Systems I",
+        "Operating Systems"
       ]
     }
   ],
@@ -53,6 +60,17 @@
       "summary": "Selling Tommy Bahama products to guests.",
       "highlights": [
         "Creating interpersonal relationships with guests."
+      ]
+    },
+    {
+      "company": "Auntie Annes",
+      "position": "Shift Supervisor",
+      "website": "https://www.auntieannes.com/",
+      "startDate": "2021-08-01",
+      "endDate": "2022-07-31",
+      "summary": "Make food for guests and help manage team for the shift.",
+      "highlights": [
+        "Promotion from Cashier to Shift Supervisor."
       ]
     }
   ],

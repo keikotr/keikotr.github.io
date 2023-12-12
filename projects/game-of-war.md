@@ -11,7 +11,7 @@ labels:
 summary: "A simple card game of War for my ICS 211 class."
 ---
 
-<img class="img-fluid" src="../img/game-of-war/war-header.jpg">
+<img class="img-fluid" src="../img/game-of-war/war-header.jpg" alt="Playing cards with a king of spades as the center card.">
 
 The main purpose of this project was to use abstract data structures to simulate a simple card game of <a href="https://bicyclecards.com/how-to-play/war/">War</a>.
 
