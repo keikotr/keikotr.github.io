@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/customer-database/uhm-clubhouse.png
+image: img/uhm-clubhouse/uhm-clubhouse.png
 title: "UHM Clubhouse Application"
 date: 2023-12-11
 published: true
@@ -32,4 +32,4 @@ There are several different components found within this web application:
 
 This was the final group project for my ICS 314 class where we all collaborated to develop this application over the course of a couple of months through GitHub. My main role in development was to create the club admin home page where it shows club admins what clubs they currently manage. I was also in charge of creating the edit club function and the delete club function found on the club admin page. I also helped create the clubs and club interests database through using MongoDB collections. In addition to my role, each team member had to practice agile project management through GitHub where we created milestone project boards to track and organize the teams tasks. 
 
-Here is a link to our project home page which outlines the overview of the application, a development guide, and the continuous integration of the application. Link: https://uhm-clubhouse.github.io/
+Here is a link to our project home page which outlines the overview of the application, a development guide, and the continuous integration of the application. Link: <a href="https://uhm-clubhouse.github.io/">UHM Clubhouse</a>
