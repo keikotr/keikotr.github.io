@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Keiko Raiola",
+    "label": "Student",
+    "picture": "https://github.com/keikotr.png",
+    "email": "keikotr@hawaii.edu",
+    "phone": "808-219-3676",
+    "website": "https://keikotr.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall 2025.",
+    "location": { "address": "", "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "keikotr", "url": "http://github.com/keikotr" },
+      { "network": "linkedin", "username": "keikoraiola", "url": "http://linkedin.com/in/keikoraiola" }
+    ]
+  },
+  "interests": [
+    { "name": "Game Development" },
+    { "name": "Software Development" },
+    { "name": "Web Application Development" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Meteor", "React", "MongoDB" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Microsoft Windows", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Fall, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-08-23",
+      "endDate": "Present",
+      "courses": [
+        "Calculus I & II",
+        "Linear Algebra",
+        "Elementary Korean",
+        "Intermediate Korean",
+        "Introduction to Computer Science I & II",
+        "Program Structures",
+        "Discrete Mathematics for Computer Science I & II",
+        "Algorithms",
+        "Software Engineering I",
+        "Database Systems I",
+        "Operating Systems"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Tommy Bahama",
+      "position": "Sales Associate",
+      "website": "https://www.tommybahama.com/",
+      "startDate": "2022-07-01",
+      "endDate": "Present",
+      "summary": "Selling Tommy Bahama products to guests.",
+      "highlights": [
+        "Creating interpersonal relationships with guests."
+      ]
+    },
+    {
+      "company": "Auntie Annes",
+      "position": "Shift Supervisor",
+      "website": "https://www.auntieannes.com/",
+      "startDate": "2021-08-01",
+      "endDate": "2022-07-31",
+      "summary": "Make food for guests and help manage team for the shift.",
+      "highlights": [
+        "Promotion from Cashier to Shift Supervisor."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
