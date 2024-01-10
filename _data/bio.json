@@ -21,7 +21,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Meteor", "React", "MongoDB" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Meteor", "React", "MongoDB", "Bootstrap 5" ]
     },
     {
       "name": "Toolsets/OS",
@@ -57,9 +57,10 @@
       "website": "https://www.tommybahama.com/",
       "startDate": "2022-07-01",
       "endDate": "Present",
-      "summary": "Selling Tommy Bahama products to guests.",
+      "summary": "Assist guests on the selling floor by providing any assistance needed and creating an enjoyable shopping experience and help recover the store by regularly cleaning common surfaces, tidying up merchandise, and providing additional support in the stock area.",
       "highlights": [
-        "Creating interpersonal relationships with guests."
+        "Creating interpersonal relationships with guests.",
+        "Gaining more confidence with being able to converse with unfamiliar faces."
       ]
     },
     {
@@ -68,11 +69,23 @@
       "website": "https://www.auntieannes.com/",
       "startDate": "2021-08-01",
       "endDate": "2022-07-31",
-      "summary": "Make food for guests and help manage team for the shift.",
+      "summary": "Supervise and manage the working shift by leading team members with various duties to be completed through the shift ensuring an enjoyable workplace environment. Balance and count money at the end of the shift and manage bank deposits. ",
       "highlights": [
-        "Promotion from Cashier to Shift Supervisor."
+        "Promotion from Cashier to Shift Supervisor.",
+        "Understanding how to delegate tasks and its importance."
       ]
-    }
+    },
+        {
+      "company": "Kate Spade New York",
+      "position": "Seasonal Support Associate",
+      "website": "https://www.katespade.com/",
+      "startDate": "2021-11-11",
+      "endDate": "2022-01-07",
+      "summary": "Support the store by providing assistance wherever it is most needed throughout the day, greet customers as they arrive at the store and create a connection with guests through friendly conversations, and organize and stock the backroom and backstock areas. ",
+      "highlights": [
+        "Gaining more confidence with public speaking."
+      ]
+    },
   ],
   "references": [
     {
