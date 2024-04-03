@@ -21,11 +21,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Java", "C/C++", "Javascript", "HTML/CSS", "Bootstrap 5", "React", "Meteor", "MongoDB", "MySQL" ]
+      "keywords": [ "Java", "C/C++", "Javascript", "HTML/CSS", "Bootstrap", "React", "Meteor", "MongoDB", "MySQL" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Microsoft Windows", "Git/GitHub" ]
+      "keywords": [ "MacOS", "Microsoft Windows", "Git/GitHub", "IntelliJ", "Eclipse" ]
     }
   ],
   "education": [
@@ -38,8 +38,6 @@
       "courses": [
         "Calculus I & II",
         "Linear Algebra",
-        "Elementary Korean",
-        "Intermediate Korean",
         "Introduction to Computer Science I & II",
         "Program Structures",
         "Discrete Mathematics for Computer Science I & II",
@@ -57,11 +55,7 @@
       "website": "https://www.tommybahama.com/",
       "startDate": "2022-07-01",
       "endDate": "Present",
-      "summary": "Assist guests on the selling floor by providing any assistance needed and creating an enjoyable shopping experience. Help recover the store by regularly cleaning common surfaces, tidying up merchandise, and providing additional support in the stock area.",
-      "highlights": [
-        "Creating interpersonal relationships with guests.",
-        "Gaining more confidence with being able to converse with unfamiliar faces."
-      ]
+      "summary": "Create a welcoming atmosphere through greeting guests with kindness and engaging in genuine conversations. Provide prompt recommendations and professional service to guests to enhance the shopping experience.",
     },
     {
       "company": "Auntie Annes",
@@ -69,11 +63,7 @@
       "website": "https://www.auntieannes.com/",
       "startDate": "2021-08-01",
       "endDate": "2022-07-31",
-      "summary": "Supervise and manage the working shift by leading team members with various duties to be completed through the shift and ensuring an enjoyable workplace environment. Balance and count money at the end of the shift and manage bank deposits.",
-      "highlights": [
-        "Promotion from Crew Member to Shift Supervisor.",
-        "Understanding how to delegate tasks and its importance."
-      ]
+      "summary": "Effectively lead and supervise a team of employees during shifts by providing guidance and support to ensure smooth operations. Oversee daily operations, including opening and closing procedures, and adhere to company policies and standards for customer service, food quality, and cleanliness. Manage cash registers, process transactions accurately, maintain cash accountability, and prepare and submit daily reports on sales.",
     },
         {
       "company": "Kate Spade New York",
@@ -81,10 +71,7 @@
       "website": "https://www.katespade.com/",
       "startDate": "2021-11-11",
       "endDate": "2022-01-07",
-      "summary": "Support the store by providing assistance wherever it is most needed throughout the day. Greet customers as they arrive at the store and create a connection with guests through friendly conversations. Organize and stock the backroom and backstock areas.",
-      "highlights": [
-        "Gaining more confidence with public speaking."
-      ]
+      "summary": "Demonstrate flexibility in adapting to changing tasks and priorities in a fast-paced environment. Work collaboratively with team members to achieve daily sales targets and maintain a positive work environment. Assist in restocking shelves, arranging displays, and ensuring the overall tidiness of the store.",
     },
   ],
   "references": [
