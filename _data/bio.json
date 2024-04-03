@@ -3,10 +3,10 @@
     "name": "Keiko Raiola",
     "label": "Student",
     "picture": "https://github.com/keikotr.png",
-    "email": "keikotr@hawaii.edu",
+    "email": "keikotr21@gmail.com",
     "phone": "808-219-3676",
     "website": "https://keikotr.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall 2025.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring 2025.",
     "location": { "address": "", "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "keikotr", "url": "http://github.com/keikotr" },
@@ -14,14 +14,14 @@
     ]
   },
   "interests": [
-    { "name": "Game Development" },
+    { "name": "Operating Systems" },
     { "name": "Software Development" },
     { "name": "Web Application Development" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Meteor", "React", "MongoDB", "Bootstrap 5" ]
+      "keywords": [ "Java", "C/C++", "Javascript", "HTML/CSS", "Bootstrap 5", "React", "Meteor", "MongoDB", "MySQL" ]
     },
     {
       "name": "Toolsets/OS",
@@ -57,7 +57,7 @@
       "website": "https://www.tommybahama.com/",
       "startDate": "2022-07-01",
       "endDate": "Present",
-      "summary": "Assist guests on the selling floor by providing any assistance needed and creating an enjoyable shopping experience and help recover the store by regularly cleaning common surfaces, tidying up merchandise, and providing additional support in the stock area.",
+      "summary": "Assist guests on the selling floor by providing any assistance needed and creating an enjoyable shopping experience. Help recover the store by regularly cleaning common surfaces, tidying up merchandise, and providing additional support in the stock area.",
       "highlights": [
         "Creating interpersonal relationships with guests.",
         "Gaining more confidence with being able to converse with unfamiliar faces."
@@ -69,9 +69,9 @@
       "website": "https://www.auntieannes.com/",
       "startDate": "2021-08-01",
       "endDate": "2022-07-31",
-      "summary": "Supervise and manage the working shift by leading team members with various duties to be completed through the shift ensuring an enjoyable workplace environment. Balance and count money at the end of the shift and manage bank deposits. ",
+      "summary": "Supervise and manage the working shift by leading team members with various duties to be completed through the shift and ensuring an enjoyable workplace environment. Balance and count money at the end of the shift and manage bank deposits.",
       "highlights": [
-        "Promotion from Cashier to Shift Supervisor.",
+        "Promotion from Crew Member to Shift Supervisor.",
         "Understanding how to delegate tasks and its importance."
       ]
     },
@@ -81,7 +81,7 @@
       "website": "https://www.katespade.com/",
       "startDate": "2021-11-11",
       "endDate": "2022-01-07",
-      "summary": "Support the store by providing assistance wherever it is most needed throughout the day, greet customers as they arrive at the store and create a connection with guests through friendly conversations, and organize and stock the backroom and backstock areas. ",
+      "summary": "Support the store by providing assistance wherever it is most needed throughout the day. Greet customers as they arrive at the store and create a connection with guests through friendly conversations. Organize and stock the backroom and backstock areas.",
       "highlights": [
         "Gaining more confidence with public speaking."
       ]
