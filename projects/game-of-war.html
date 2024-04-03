@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Simple game of War | Keiko Raiola | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/keikotr.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Keiko Raiola | Professional Portfolio">
+    <meta property="og:url" content="https://keikotr.github.io/projects/game-of-war.html">
+    <meta property="og:title" content="Simple game of War | Keiko Raiola | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/keikotr.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Simple game of War | Keiko Raiola | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Keiko Raiola</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Simple game of War</h1>
+ <p><img class="img-fluid" src="../img/game-of-war/war-header.jpg" alt="Playing cards with a king of spades as the center card." /></p>
+
+<p>The main purpose of this project was to use abstract data structures to simulate a simple card game of <a href="https://bicyclecards.com/how-to-play/war/">War</a>.</p>
+
+<p>The goal of War is to be the first player to win all 52 cards. A deck of cards is divided evenly with each player receiving 26 cards, dealt one at a time face down. Each player will turn up a card at the same time and the player with the higher card value takes both cards face down on the bottom of their stack. If the cards are the same rank, war is initiated. Each player will place three cards down and one card up. The player with the higher faced-up card wins the war, takes all the cards, and places them on the bottom of their pile.</p>
+
+<p>My role was to create a program that simulates a card game of War given these files:</p>
+<ul>
+  <li><a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/IStack211.java">IStack211</a>: An interface that includes methods for implementing our own stack data structure.</li>
+  <li><a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/IGameOfWar.java">IGameOfWar</a>: An interface that includes methods for starting the game, rounds, and players’ decks.</li>
+  <li><a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/Rank.java">Rank.java</a>: An enumeration of the ranks of cards from TWO through ACE.</li>
+  <li><a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/Suit.java">Suit.java</a>: An enumeration of the suits of cards (CLUBS, DIAMONDS, HEARTS, and SPADES).</li>
+  <li><a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/Card.java">Card.java</a>: Represents a single card.</li>
+  <li><a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/Deck.java">Deck.java</a>: Represents a deck of cards.</li>
+  <li><a href="http://courses.ics.hawaii.edu/ics211s22/morea/090.stacks/GameOfWarTest.java">GameOfWarTest</a>: A JUnit test.</li>
+</ul>
+
+<p>The given files were written by my professor and the program that implements the files by my professor was written entirely by me with the help of teaching assistants and various class materials.</p>
+
+<p>While this project did not include any fancy graphics or user interfaces, I learned from this experience that I am capable of creating more kinds of games using more optimal algorithms and utilizing data structures to enhance gameplay efficiency.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

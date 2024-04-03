@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Simple bank customer database | Keiko Raiola | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/keikotr.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Keiko Raiola | Professional Portfolio">
+    <meta property="og:url" content="https://keikotr.github.io/projects/customer-database.html">
+    <meta property="og:title" content="Simple bank customer database | Keiko Raiola | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/keikotr.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Simple bank customer database | Keiko Raiola | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Keiko Raiola</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Simple bank customer database</h1>
+ <p><img class="img-fluid" src="../img/customer-database/database-header.jpg" alt="Laptop with a plant next to it." /></p>
+
+<p>This project had us create a simple customer database for a bank that allows the banker to manage customer’s bank records. The banker’s tasks include creating new records, viewing an existing one, and deleting records. Records include the customer’s account number, name, and address. There were two parts that we had to complete: The user interface and the database. The user interface had to be easy to work with since the banker is interacting with it and the database end had to include the following functions:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void addRecord(struct record **, int, char [ ], char [ ]); //Creates records and keeps the list in descending order of account numbers.
+void printAllRecords(struct record *); //Prints all the records in the database.
+int findRecord(struct record *, int); //Finds a record using the account number.
+int deleteRecord(struct record **, int); //Deletes a record using the account number.
+int writefile(struct record *, char []); //Saves all the records in the database to a file.
+int readfile(struct record **, char []); //Retrieves the records from the saved file.
+void cleanup(struct record **); //Releases all allocated spaces in the heap memory.
+</code></pre></div></div>
+
+<p>My role in this project was to create the user interface and database. Everything was written by me with the help of the professor, the teaching assistant, and online resources.</p>
+
+<p>This experience had taught me the importance of pseudocoding. Before this class, I almost never used pseudocoding to plan out my programs and looking back on that, it really could have saved me a lot of time if I had just taken the time to write out my program and how it was going to be structured. As for this project, I pseudocoded all the functions before implementing it and it made my life as a programmer so much easier! Another thing I have learned from this experience was the importance of tracing out your program line by line and seeing how it interacts with the stack and heap memory for comprehension and debugging purposes. If I encountered any problem with my code, I would immediately start tracing out my code line by line in order to see where my logic went wrong and this also saved me a lot of time in the long run because I actively spent my time understanding what each line of code did rather than stare at my program for hours on end and wonder where I went wrong.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
