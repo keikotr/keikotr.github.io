@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Keiko Raiola",
-    "label": "Student",
+    "label": "Graduate",
     "picture": "https://github.com/keikotr.png",
     "email": "keikotr21@gmail.com",
     "phone": "808-219-3676",
     "website": "https://keikotr.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring 2025.",
+    "summary": "Aloha! I am a recent graduate with a B.S. in Computer Science from U.H. Manoa!",
     "location": { "address": "", "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "keikotr", "url": "http://github.com/keikotr" },
@@ -31,10 +31,10 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2025)",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2021-08-23",
-      "endDate": "Present",
+      "endDate": "2025-05-17",
       "courses": [
         "Calculus I & II",
         "Linear Algebra",
@@ -55,7 +55,7 @@
       "website": "https://www.tommybahama.com/",
       "startDate": "2022-07-01",
       "endDate": "Present",
-      "summary": "Create a welcoming atmosphere through greeting guests with kindness and engaging in genuine conversations. Provide prompt recommendations and professional service to guests to enhance the shopping experience.",
+      "summary": "Create a welcoming atmosphere through greeting guests with kindness and engaging in genuine conversations. Provide prompt recommendations and professional service to guests to enhance the shopping experience."
     },
     {
       "company": "Auntie Annes",
@@ -63,7 +63,7 @@
       "website": "https://www.auntieannes.com/",
       "startDate": "2021-08-01",
       "endDate": "2022-07-31",
-      "summary": "Effectively lead and supervise a team of employees during shifts by providing guidance and support to ensure smooth operations. Oversee daily operations, including opening and closing procedures, and adhere to company policies and standards for customer service, food quality, and cleanliness. Manage cash registers, process transactions accurately, maintain cash accountability, and prepare and submit daily reports on sales.",
+      "summary": "Effectively lead and supervise a team of employees during shifts by providing guidance and support to ensure smooth operations. Oversee daily operations, including opening and closing procedures, and adhere to company policies and standards for customer service, food quality, and cleanliness. Manage cash registers, process transactions accurately, maintain cash accountability, and prepare and submit daily reports on sales."
     },
         {
       "company": "Kate Spade New York",
@@ -71,8 +71,8 @@
       "website": "https://www.katespade.com/",
       "startDate": "2021-11-11",
       "endDate": "2022-01-07",
-      "summary": "Demonstrate flexibility in adapting to changing tasks and priorities in a fast-paced environment. Work collaboratively with team members to achieve daily sales targets and maintain a positive work environment. Assist in restocking shelves, arranging displays, and ensuring the overall tidiness of the store.",
-    },
+      "summary": "Demonstrate flexibility in adapting to changing tasks and priorities in a fast-paced environment. Work collaboratively with team members to achieve daily sales targets and maintain a positive work environment. Assist in restocking shelves, arranging displays, and ensuring the overall tidiness of the store."
+    }
   ],
   "references": [
     {
