@@ -4,7 +4,7 @@ type: essay
 title: "In the End"
 # All dates must be YYYY-MM-DD format!
 date: 2023-12-07
-published: true
+published: false
 labels:
   - Software Engineering
   - Project Management

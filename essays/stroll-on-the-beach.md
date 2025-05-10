@@ -4,7 +4,7 @@ type: essay
 title: "Stroll on the Beach"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
-published: true
+published: false
 labels:
   - Javascript
   - Learning

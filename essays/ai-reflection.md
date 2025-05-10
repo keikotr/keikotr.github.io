@@ -4,7 +4,7 @@ type: essay
 title: "AI in ICS 314"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-21
-published: true
+published: false
 labels:
   - Reflection
   - AI

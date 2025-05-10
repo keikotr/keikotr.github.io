@@ -4,7 +4,7 @@ type: essay
 title: "Is it Smart to Ask?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-07
-published: true
+published: false
 labels:
   - Questions
   - Answers
