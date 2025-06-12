@@ -4,7 +4,7 @@ type: project
 image: img/game-of-war/war-project-icon.jpg
 title: "Simple game of War"
 date: 2022-03-04
-published: true
+published: false
 labels:
   - Java
   - Game

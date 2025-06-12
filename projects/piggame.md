@@ -4,7 +4,7 @@ type: project
 image: img/piggame/twodices.jpg
 title: "Two-Dice Pig Game"
 date: 2021-10-22
-published: true
+published: false
 labels:
   - Java
   - Game

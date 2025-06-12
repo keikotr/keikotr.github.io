@@ -4,7 +4,7 @@ type: project
 image: img/customer-database/money-icon.jpg
 title: "Simple bank customer database"
 date: 2022-10-29
-published: true
+published: false
 labels:
   - C
   - Database
